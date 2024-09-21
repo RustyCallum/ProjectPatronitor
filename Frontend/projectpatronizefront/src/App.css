@@ -1,0 +1,130 @@
+/* Stylizacja kontenera dla całej aplikacji */
+.app-container {
+
+}
+
+.title-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 4rem;
+  background: linear-gradient(to bottom, #1B1B2F, #4B1C40);
+}
+
+.hero-text{
+  padding: 5rem;
+  width:20%;
+  text-align: center;
+  color:white;
+}
+
+.tier-container-title{
+  color:white;
+}
+
+.title-text{
+  color:white;
+}
+
+.hero-section{
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  background: linear-gradient(to bottom, #4B1C40, #8B2F6D);
+
+}
+
+.gc-logo-image{
+  border-radius:50px;
+}
+
+.gc-main-icon{
+  display: flex;
+  border-radius: 25px;
+  justify-content: center;
+}
+
+.tier-container {
+  background: linear-gradient(to bottom, #8B2F6D, #BF3A84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30rem;
+}
+
+/* Stylizacja kontenera dla Swipera */
+.swiper-container {
+  width: 50%;  /* Szerokość kontenera ustawiona na 30% */
+  margin: 0 auto;  /* Wycentrowanie kontenera */
+}
+
+/* Stylowanie przycisków nawigacyjnych */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #007bff;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+/* Stylowanie kontenera slajdów */
+.author-profile__box {
+  background-color: rgb(54, 54, 54);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%; /* Aby dopasować się do rozmiaru kontenera */
+  text-align: center;
+  border-style: solid;
+  border-color: #7D5FFF;
+}
+
+/* Stylowanie zawartości w slajdach */
+.author-profile__threshold--header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #EAEAEA;
+}
+
+.author-profile__threshold--value {
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.author-profile__threshold--type {
+  font-size: 16px;
+  color: #666;
+}
+
+.author-profile__threshold--description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #EAEAEA;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

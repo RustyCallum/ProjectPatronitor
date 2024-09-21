@@ -1,0 +1,6 @@
+@ProjectPatronizeBackend_HostAddress = http://localhost:5133
+
+GET {{ProjectPatronizeBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
